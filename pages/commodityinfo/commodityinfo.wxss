@@ -1,0 +1,29 @@
+/* pages/commodityinfo/commodityinfo.wxss */
+
+.item_content {
+  min-height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.t_input {
+  min-height: 80rpx;
+  line-height: 80rpx;
+  width: 20%;
+}
+
+.input {
+  min-height: 80rpx;
+
+  line-height: 80rpx;
+  width: 80%;
+}
+
+.input_hover {
+  min-height: 80rpx;
+  border: 1px solid lightgray;
+  line-height: 80rpx;
+  width: 80%;
+}

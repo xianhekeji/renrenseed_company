@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/userinfo/userinfo",
+    "pages/login/login",
+    "pages/commodityinfo/commodityinfo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "人人种品种大全_企业端",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#056bb8",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/icon_main_checked.png",
+        "iconPath": "images/icon_main.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/user_main_checked.png",
+        "iconPath": "images/user_main.png",
+        "pagePath": "pages/userinfo/userinfo",
+        "text": "我"
+      }
+    ]
+  }
+}

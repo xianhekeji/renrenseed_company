@@ -1,0 +1,7 @@
+<!--pages/userinfo/userinfo.wxml-->
+<view class="container">
+  <view class="company_title">
+    <image class="avatar" src="{{constUrl}}wxApi/getEnterpriseAvatar.php?id={{data.EnterpriseId}}"></image>
+    <text class="text">{{data.EnterpriseName}}</text>
+  </view>
+</view>

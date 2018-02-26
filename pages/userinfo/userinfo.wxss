@@ -1,0 +1,13 @@
+/* pages/userinfo/userinfo.wxss */
+
+.company_title {
+  display: flex;
+  flex-direction: row;
+  height: 120rpx;
+}
+
+.text {
+  height: 120rpx;
+  max-height: 120rpx;
+  margin-left: 10rpx;
+}

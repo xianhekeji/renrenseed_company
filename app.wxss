@@ -1,0 +1,33 @@
+/**app.wxss**/
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10rpx 0;
+  box-sizing: border-box;
+  margin-left: 5rpx;
+  margin-right: 5rpx;
+  margin-top: 5rpx;
+}
+
+.v_input {
+  display: flex;
+  flex-direction: row;
+}
+
+.c_input {
+  border: 1px solid lightgray;
+}
+
+.avatar {
+  width: 100rpx;
+  height: 100rpx;
+  max-width: 100rpx;
+  max-height: 100rpx;
+  border-radius: 50%;
+  border: 1px solid #b8b2b2;
+  border-width: 1rpx;
+}

@@ -1,0 +1,19 @@
+<!--pages/commodityinfo/commodityinfo.wxml-->
+<view class="container">
+  <view class="item_content">
+    <text class="t_input">名称</text>
+    <input type='text' class="input" id="name" placeholder="请输入用户名" bindinput="nameInput" value="{{userName}}" disabled="true"></input>
+  </view>
+  <view class="item_content">
+    <text class="t_input">品种</text>
+    <input type='text' class="input" id="name" placeholder="请输入用户名" bindinput="nameInput" value="{{userName}}" disabled="true"></input>
+  </view>
+  <view class="item_content">
+    <text class="t_input">品牌</text>
+    <input type='text' class="input" id="name" placeholder="请输入用户名" bindinput="nameInput" value="{{userName}}" disabled="true"></input>
+  </view>
+  <view class="item_content">
+    <text class="t_input">描述</text>
+    <input type='text' class="input" id="name" placeholder="请输入用户名" bindinput="nameInput" value="{{userName}}" disabled="true"></input>
+  </view>
+</view>
